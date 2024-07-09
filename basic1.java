@@ -1,4 +1,4 @@
-class Sib{
+ class Sib{
               private int a;
                void fun1()
                {
@@ -22,5 +22,10 @@ class Basic1{
            Sib m1=new Sib();
            m1.fun1();
            fun2();
+           int i;
+           for(i=0;i<arg.length;i++)
+           {
+             System.out.println(arg[i]);
+           }
      }
 }
